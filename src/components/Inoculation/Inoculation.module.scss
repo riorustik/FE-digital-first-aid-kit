@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+.non {
+  display: none;
+}
+.divImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px 10px 30px;
+}
+.div_priv_one{
+  margin: 40px 0 0 10px;
+  min-width: 300px;
+  min-height: 400px;
+}
+.div_priv_two{
+  background-color: rgba(247,247,247,0.9);
+  min-width: 500px;
+  min-height: 200px;
+}
+@media (max-width: 420px) {
+  .div_priv_one{
+    margin: 40px 0 0 10px;
+    min-width: 300px;
+    min-height: 400px;
+  }
+  .div_priv_two{
+    background-color: rgba(247,247,247,0.9);
+    width: 390px;
+    min-height: 200px;
+  }
+}

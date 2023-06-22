@@ -1,0 +1,215 @@
+.fullBlock {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  //width: 1200px;
+  max-width: 1200px;
+  padding-top: 30px;
+}
+.userBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+}
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.userButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.userText {
+  padding-left: 50px;
+}
+.course{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 30px;
+}
+.course_div_one{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.course_div_two{
+  height: 55px;
+  width: 37%;
+  background-color: #023047;
+}
+.course_div_two p{
+  padding: 15px 0 0 15px;
+  margin: 0;
+  font-size: 20pt;
+  color: white;
+}
+.userInfoImg{
+  padding-left: 20px;
+}
+.course_div_free{
+  display: flex;
+  width: 21%;
+  justify-content: flex-end;
+}
+.course_div_four{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30px;
+}
+.posts{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px;
+}
+.posts_div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.posts_div_one{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.inoculation{
+  display: flex;
+  flex-direction: column;
+
+  margin: 30px;
+}
+.inoculation_one{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.inoculation_two{
+  height: 55px;
+  width: 37%;
+  background-color: #023047;
+}
+.inoculation_freeo{
+  padding: 15px 0 0 15px;
+  margin: 0;
+  font-size: 20pt;
+  color: white;
+}
+.www{
+  width: 1200px;
+}
+@media (max-width: 420px) {
+  .www{
+    width: 400px;
+  }
+  .inoculation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .inoculation_one{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .inoculation_two{
+    height: 55px;
+    width: 100%;
+    background-color: #023047;
+  }
+  .inoculation_freeo{
+    padding: 15px 0 0 15px;
+    margin: 0;
+    font-size: 14pt;
+    color: white;
+  }
+  .posts{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin: 0;
+  }
+  .posts_div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .posts_div_one{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .fullBlock {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    //width: 1200px;
+    max-width: 414px;
+    padding-top: 0;
+  }
+  .userInfoImg{
+    display: none
+  }
+  .userBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+  .userInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .userButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .userText {
+    padding: 0;
+    width: 100%;
+  }
+  .course{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin: 10px 0 0 0;
+  }
+  .course_div_one{
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+  }
+  .course_div_two{
+    height: 55px;
+    width: 37%;
+    background-color: #023047;
+  }
+  .course_div_two p{
+    padding: 15px 0 0 15px;
+    margin: 0;
+    font-size: 12pt;
+    color: white;
+  }
+  .course_div_free{
+    display: flex;
+    width: 21%;
+    justify-content: center;
+  }
+}
