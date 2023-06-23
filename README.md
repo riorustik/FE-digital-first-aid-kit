@@ -107,8 +107,9 @@ const medicineSlice = createSlice({
     )}
   </div>
 ```
+![Alt-текст](https://i.ibb.co/BykKrv3/image.png)
 
-React-компонент карточка препарата
+React-компонент "карточка препарата"
 ```
 export const ButtonMedicine = ({
   id,
