@@ -107,7 +107,7 @@ const medicineSlice = createSlice({
     )}
   </div>
 ```
-<img src='https://i.ibb.co/BykKrv3/image.png' width=100>
+<img src='https://i.ibb.co/BykKrv3/image.png' width=400>
 
 React-компонент "карточка препарата"
 ```
